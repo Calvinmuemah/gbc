@@ -1,0 +1,16 @@
+/* App.css */
+html, body, #root, .app-container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section {
+  flex: 1;
+  min-height: 100vh;
+}

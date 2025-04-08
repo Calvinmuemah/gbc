@@ -1,0 +1,54 @@
+/* Allteachings.css */
+
+.main-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding-top: 20px;
+  }
+  
+  .nav-toggler {
+    display: none;
+  }
+  
+  .video-all-container video {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  footer {
+    background-color: #fff;
+    color: #a79428;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    margin-top: auto;
+  }
+  
+  /* Sidebar toggle for small screens */
+  @media (max-width: 767px) {
+    .nav-toggler {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .aside {
+      position: relative;
+      width: 100%;
+    }
+  
+    .nav {
+      display: none;
+    }
+  
+    .nav-toggler.active + .nav {
+      display: block;
+    }
+  }
+  

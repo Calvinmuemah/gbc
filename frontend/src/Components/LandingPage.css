@@ -1,0 +1,148 @@
+/* LandingPage.css */
+html, body, #root {
+    height: 100%;
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .full-height {
+    height: 100%;
+  }
+  
+  .no-scroll {
+    overflow-x: hidden;
+
+  }
+  /* LandingPage.css */
+html, body, #root {
+    height: 100%;
+    width: 100%; /* Ensure the page takes full width */
+    margin: 0;
+    padding: 0;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.no-scroll {
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    z-index: 10; /* Keep navbar on top */
+}
+
+/* Hero Section */
+.flex-grow-1 {
+    min-height: 70vh; /* Ensure hero section covers a good part of the page */
+}
+
+.bg-success {
+    background-color: #28a745 !important; /* Keep the background color */
+}
+
+.text-white {
+    color: white;
+}
+
+/* Hero Text Styling */
+h1 {
+    font-size: 2.5rem; /* Adjust font size */
+}
+
+p {
+    font-size: 1.1rem; /* Adjust paragraph font size */
+}
+
+@media (max-width: 768px) {
+    /* Adjust for smaller screens */
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .flex-grow-1 {
+        padding: 30px 0; /* Add padding for better spacing */
+    }
+
+    .col-12.col-md-6 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        width: 100%; /* Ensure the button spans full width on small screens */
+    }
+
+    .bg-light {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    color: #28a745;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    margin-top: auto;
+}
+
+footer .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer h6 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+footer .list-unstyled {
+    padding-left: 0;
+}
+
+footer .list-unstyled li {
+    margin-bottom: 5px;
+}
+
+footer .list-unstyled a {
+    text-decoration: none;
+    color: #28a745;
+}
+
+footer .text-center {
+    font-size: 0.9rem;
+}
+
+/* Social Links */
+footer .d-flex {
+    gap: 10px;
+}
+
+footer .bi {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    footer .d-flex {
+        justify-content: center;
+    }
+
+    footer .col-md-4 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
