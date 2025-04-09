@@ -11,7 +11,7 @@ const Contact = () => {
     e.preventDefault();
     setIsLoading(true); // Show loading indicator
     try {
-      const response = await fetch("http://localhost:5000/api/contact/contact", {
+      const response = await fetch(`${import.meta.env.VITE_API_ENDPOINT}/api/contact/contact`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message }),
