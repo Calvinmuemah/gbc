@@ -1,0 +1,134 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(/icons/----.jpg); *
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container-M2 {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 90px;
+}
+  
+.modal-content button {
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 4px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 460px;
+    margin-top: -15px;
+}
+  
+button:hover {
+    background-color: black;
+    color: white;
+}
+  
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modal-content {
+    background-color: #dfdbd3;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 320px;
+    margin-top: 80px;
+}
+  
+.modal-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: green;
+}
+  
+.modal-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+.modal-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: black;
+}
+  
+.modal-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-style: italic;
+    font-weight: 700;
+}
+  
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: brown;
+}
+  
+/* responsive */
+@media (max-width:991px){
+    .container-M2 {
+        text-align: center;
+        margin-left: 0px;
+        width: 300px;
+
+    }
+    .modal-content button {
+        background-color: #fff;
+        color: black;
+        border: none;
+        padding: 4px 10px;
+        font-size: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 245px;
+        margin-top: -15px;
+    }
+    .modal-content {
+        background-color: #dfdbd3;
+        padding: 20px;
+        margin-left: 0px;
+        border-radius: 10px;
+        text-align: center;
+        max-width: 500px;
+        width: 300px;
+        position: relative;
+        margin-top: -70px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .modal-content p {
+        font-size: 20px;
+        margin-bottom: 10px;
+        line-height: 1.6;
+        font-style: italic;
+        font-weight: 700;
+    }
+}

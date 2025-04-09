@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 // import Modal from './Modal';
 import { Link } from 'react-router-dom';
-// import './Services.css';
+import './Service.css';
 
 function PrayerMeeting() {
   const [modal, setModalOpen] = useState(true);
@@ -13,7 +13,7 @@ function PrayerMeeting() {
           <div className="modal-content">
             {/* Close button */}
             <Link
-              to = "/"
+              to = "/Home"
             >
             <button onClick={closeModal}>X</button>
             </Link>

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-// import './Services.css';
+import './Service.css';
 import { Link } from 'react-router-dom';
 
 function BibleStudy() {
@@ -13,7 +13,7 @@ function BibleStudy() {
       <div className="modal-content">
         {/* Close button */}
         <Link
-          to = "/"
+          to = "/Home"
         >
         <button onClick={closeModal}>X</button>
         </Link>

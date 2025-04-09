@@ -25,7 +25,7 @@ function Login() {
 
       // Display success toast and redirect
       toast.success("Login successful! Welcome to Glory Bible Church.", { autoClose: 2000 });
-      setTimeout(() => navigate("/Home"), 2000); // Delay navigation to show toast
+      setTimeout(() => navigate("/learnMore"), 2000); // Delay navigation to show toast
     } catch (error) {
       // Handle errors gracefully
       toast.error("Login failed. Please check your credentials.");

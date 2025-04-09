@@ -221,57 +221,7 @@ function Home() {
           </div>
         </section>
         {/* Ministries section end */}
-        {/* About Section start */}
-        <section className="about section" id="about">
-          <div className="container">
-            <div className="row">
-              <div className="section-title">
-              </div>
-              <div className="content">
-                <h2>About</h2>
-                <h1>The Good News</h1>
-                <p>
-                  The gospel is the “Good News” of Jesus Christ. Romans 6:23 explains the
-                  heavy price of our sin:
-                  <q>
-                    The wages of sin is death, but the gift of God is eternal life in Christ
-                    Jesus our Lord.
-                  </q>
-                </p>
-                <p>
-                  God has provided a gift, a solution to our sin, and at great cost to
-                  Himself. It was His only Son who came to suffer and die for our sins.
-                </p>
-                <p>
-                  <q>
-                    For God so loved the world that He gave His only begotten Son, that
-                    whoever believes in Him should not perish but have everlasting life.
-                  </q>{" "}
-                  – JOHN 3:16
-                </p>
-              </div>
-              <div className="image">
-                <img src="/imgs/about.jpg" alt="Wooden Cross in Nature" />
-              </div>
-              <div className="container-2">
-                <div className="p1">
-                  <p>
-                    - For God so loved the world that He gave His only begotten Son, that
-                    whoever believes in Him should not perish but have everlasting life.
-                  </p>
-                </div>
-                <div className="p2">
-                  <p>
-                    - For God so loved the world that He gave His only begotten Son, that
-                    whoever believes in Him should not perish but have everlasting life.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* About section end */}
-
+        
       {/* Other Pages */}
       <div className="other-pages">
         {/* Staff Section */}
@@ -286,50 +236,6 @@ function Home() {
           <a href="/staff.html">
             <button>Meet Our Staff</button>
           </a>
-        </div>
-
-        {/* Contact Section */}
-        <div className="contact-container">
-          <div className="contact-info">
-            <h2>Contact</h2>
-            <div className="info-item">
-              <span className="icon1">📍</span>
-              <p>
-                Glory Bible Church
-                <br />
-                Kakamega
-                <br />
-                Kamadep Guest House
-              </p>
-            </div>
-            <div className="info-item">
-              <span className="icon2">📞</span>
-              <p>
-                Office Hours: Tue-Fri, 8:00am–12:00pm
-                <br />
-                (541) 899-8732
-              </p>
-            </div>
-            <div className="info-item">
-              <span className="icon3">✉️</span>
-              <p>staff@applegatefellowship.org</p>
-            </div>
-          </div>
-          <div className="contact-form">
-            <form>
-              <div className="form-row">
-                <input type="text" name="first-name" placeholder="First Name" required />
-                <input type="text" name="last-name" placeholder="Last Name" required />
-              </div>
-              <div className="form-row">
-                <input type="email" name="email" placeholder="Email *" required />
-              </div>
-              <div className="form-row">
-                <textarea name="message" placeholder="Message" rows="4" required />
-              </div>
-              <button className='send' type="submit">Send</button>
-            </form>
-          </div>
         </div>
       </div>
       </div>

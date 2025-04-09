@@ -17,6 +17,9 @@ import Login from './Components/Registrations/Login';
 import Signup from './Components/Registrations/Signup';
 import ResetPassword from './Components/Registrations/ResetPassword';
 import LandingPage from './Components/LandingPage';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import LearnMore from './Components/LearnMore';
 
 function App() {
   return ( 
@@ -37,6 +40,9 @@ function App() {
         <Route path='/register' element={<Signup />}></Route>
         <Route path='/reset-password/:token' element={<ResetPassword />}></Route>
         <Route path='/' element={<LandingPage />}></Route>
+        <Route path='/about' element={<About />}></Route>
+        <Route path='/contact' element={<Contact />}></Route>
+        <Route path='/learnMore' element={<LearnMore />}></Route>
       </Routes>
     </BrowserRouter> 
   );

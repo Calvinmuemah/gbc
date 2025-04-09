@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
-// import './Services.css';
+import './Service.css';
 
 function DoctrinalStudies() {
     const [modal, setModalOpen] = useState(true);
@@ -12,7 +12,7 @@ function DoctrinalStudies() {
             <div className="modal-content">
               {/* Close button */}
               <Link
-                to = "/"
+                to = "/Home"
               >
               <button onClick={closeModal}>X</button>
               </Link>

@@ -29,12 +29,12 @@ function LandingPage() {
           >
             <ul className="navbar-nav align-items-center">
               <li className="nav-item mx-2">
-                <a className="nav-link text-success" href="#">
+                <a className="nav-link text-success" href="/about">
                   About 
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <a className="nav-link text-success" href="#">
+                <a className="nav-link text-success" href="contact">
                   Contact
                 </a>
               </li>
